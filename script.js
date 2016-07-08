@@ -1,6 +1,6 @@
 var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext("2d"),
-    player = {x: 400, y: 400},
+    player = {x: 290, y: 290},
     objective = {x: Math.random() * 500 + 60, y: Math.random() * 500 + 60},
     input = -1,
     counter = 0,
